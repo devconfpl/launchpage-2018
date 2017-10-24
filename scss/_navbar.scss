@@ -13,6 +13,13 @@
     &:hover {
       color: darken($theme-primary, .1);
     }
+    > span {
+      width: 211px;
+      height: 16px;
+      display: block;
+      background-image: url('../img/logo_color_light_horizontal_no_emblem.png');
+      background-size: contain;
+    }
   }
   .navbar-toggle {
     font-size: 12px;
@@ -67,6 +74,9 @@
         &:focus,
         &:hover {
           color: darken($theme-primary, .1);
+        }
+        > span {
+          background-image: url('../img/logo_color_dark_horizontal_no_emblem.png');
         }
       }
       .navbar-nav > li.nav-item > a.nav-link,
