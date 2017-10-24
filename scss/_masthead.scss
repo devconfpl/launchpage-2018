@@ -20,6 +20,9 @@ header.masthead {
         margin-top: 0;
         margin-bottom: 0;
         text-transform: uppercase;
+        > img {
+          width: 350px;
+        }
       }
       hr {
         margin: 30px auto;
@@ -29,6 +32,17 @@ header.masthead {
         font-weight: 400;
         margin-bottom: 50px;
         color: fade-out(white, .1);
+      }
+    }
+  }
+  @media (min-width: 544px) {
+    .header-content {
+      .header-content-inner {
+        h1 {
+          > img {
+            width: 500px;
+          }
+        }
       }
     }
   }
@@ -48,6 +62,9 @@ header.masthead {
         margin-left: auto;
         h1 {
           font-size: 50px;
+          > img {
+            width: 700px;
+          }
         }
         p {
           font-size: 30px;

@@ -172,6 +172,8 @@ header.masthead {
       margin-top: 0;
       margin-bottom: 0;
       text-transform: uppercase; }
+      header.masthead .header-content .header-content-inner h1 > img {
+        width: 350px; }
     header.masthead .header-content .header-content-inner hr {
       margin: 30px auto; }
     header.masthead .header-content .header-content-inner p {
@@ -179,6 +181,9 @@ header.masthead {
       font-weight: 400;
       margin-bottom: 50px;
       color: rgba(255, 255, 255, 0.9); }
+  @media (min-width: 544px) {
+    header.masthead .header-content .header-content-inner h1 > img {
+      width: 500px; } }
   @media (min-width: 768px) {
     header.masthead {
       height: 100%;
@@ -196,6 +201,8 @@ header.masthead {
           margin-left: auto; }
           header.masthead .header-content .header-content-inner h1 {
             font-size: 50px; }
+            header.masthead .header-content .header-content-inner h1 > img {
+              width: 700px; }
           header.masthead .header-content .header-content-inner p {
             font-size: 30px;
             max-width: 80%;
