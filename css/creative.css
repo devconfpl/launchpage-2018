@@ -95,7 +95,7 @@ body {
       width: 211px;
       height: 16px;
       display: block;
-      background-image: url("../img/logo_color_light_horizontal_no_emblem.png");
+      background-image: url("../img/logo_color_dark_horizontal_no_emblem.png");
       background-size: contain; }
   #mainNav .navbar-toggle {
     font-size: 12px;
@@ -126,6 +126,8 @@ body {
         color: rgba(255, 255, 255, 0.7); }
         #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
           color: white; }
+        #mainNav .navbar-brand > span {
+          background-image: url("../img/logo_color_light_horizontal_no_emblem.png"); }
       #mainNav .navbar-nav > li.nav-item > a.nav-link,
       #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
         color: rgba(255, 255, 255, 0.7); }
