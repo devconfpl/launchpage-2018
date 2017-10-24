@@ -266,6 +266,8 @@ header.masthead {
   padding: 50px 0; }
   .call-to-action h2 {
     margin: 0 auto 20px; }
+  .call-to-action .btn {
+    margin: 5px; }
 
 .text-primary {
   color: #4ECDC4 !important; }
