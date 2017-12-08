@@ -224,6 +224,27 @@ header.masthead {
   .service-box p {
     margin-bottom: 0; }
 
+.ticket-box {
+  max-width: 400px;
+  margin: 50px auto 0; }
+  @media (min-width: 992px) {
+    .ticket-box {
+      margin: 20px auto 0; } }
+  .ticket-box p {
+    margin-bottom: 0; }
+    .ticket-box p + p {
+      margin-top: 7px; }
+  .ticket-box h4 {
+    font-weight: 700; }
+  .ticket-box .gold {
+    color: #C98910 !important; }
+  .ticket-box .silver {
+    color: #A8A8A8 !important; }
+  .ticket-box .bronze {
+    color: #965A38 !important; }
+  .ticket-box .black {
+    color: #000000 !important; }
+
 .portfolio-box {
   position: relative;
   display: block;
