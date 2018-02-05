@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Createive v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2017 Start Bootstrap
+ * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
  */
 body,
@@ -183,6 +183,13 @@ header.masthead {
       font-weight: 400;
       margin-bottom: 50px;
       color: rgba(255, 255, 255, 0.9); }
+    header.masthead .header-content .header-content-inner a.btn:last-child {
+      margin-top: 10px; }
+  @media (min-width: 368px) {
+    header.masthead .header-content .header-content-inner a.btn:first-of-type {
+      margin-right: 10px; }
+    header.masthead .header-content .header-content-inner a.btn:last-child {
+      margin-top: 0px; } }
   @media (min-width: 544px) {
     header.masthead .header-content .header-content-inner h1 {
       font-size: 24px; }

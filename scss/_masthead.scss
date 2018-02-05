@@ -33,6 +33,29 @@ header.masthead {
         margin-bottom: 50px;
         color: fade-out(white, .1);
       }
+      a {
+        &.btn {
+          &:last-child {
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
+  @media (min-width: 368px) {
+    .header-content {
+      .header-content-inner {
+        a {
+          &.btn {
+            &:first-of-type {
+              margin-right: 10px;
+            }
+            &:last-child {
+              margin-top: 0px;
+            }
+          }
+        }
+      }
     }
   }
   @media (min-width: 544px) {
